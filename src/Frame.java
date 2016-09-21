@@ -16,7 +16,11 @@ public class Frame {
 	}
 
 	//returns the score of a single frame
-	public int score(){
+	public int score() throws BowlingException{
+		int score = firstThrow + secondThrow;
+		if(score>10 || score < 0){
+			throw new BowlingException();
+		}
 		return firstThrow + secondThrow;
 	}
 

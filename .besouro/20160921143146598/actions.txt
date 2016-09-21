@@ -8,3 +8,6 @@ RefactoringAction 1474458237846 TestBowling.java RENAME testFrameScore_after()=>
 RefactoringAction 1474458333279 TestBowling.java RENAME testFrameScore_afterBothThrows()=>void testFrameScore_afterBothThrows_2_4() METHOD
 EditAction 1474458336383 TestBowling.java 278 1 2 1
 EditAction 1474458338061 Frame.java 671 6 7 0
+UnitTestCaseAction 1474458346539 TestBowling.java OK
+UnitTestSessionAction 1474458346541 TestBowling.java OK
+EditAction 1474458511733 Frame.java 805 6 9 0
