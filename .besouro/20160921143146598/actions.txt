@@ -179,3 +179,4 @@ RefactoringAction 1474462094103 TestBowling.java RENAME testBowling_score_with_1
 RefactoringAction 1474462095120 TestBowling.java RENAME testBowling_score_with_1_4_frame_4_()=>void testBowling_score_with_1_4_frame_4_5() METHOD
 RefactoringAction 1474462097636 TestBowling.java RENAME testBowling_score_with_1_4_frame_4_5()=>void testBowling_score_with_1_4_frame_4_5_frame() METHOD
 EditAction 1474462128849 TestBowling.java 3691 12 62 8
+EditAction 1474462144041 BowlingGame.java 1049 5 7 0
