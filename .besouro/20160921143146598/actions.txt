@@ -111,3 +111,19 @@ EditAction 1474460024017 TestBowling.java 2699 9 44 6
 UnitTestCaseAction 1474460030778 TestBowling.java FAIL
 UnitTestSessionAction 1474460030779 TestBowling.java FAIL
 EditAction 1474460051450 TestBowling.java 2762 9 46 6
+UnitTestCaseAction 1474460056669 TestBowling.java OK
+UnitTestSessionAction 1474460056669 TestBowling.java OK
+RefactoringAction 1474460691347 BowlingGame.java ADD int bonus/2 FIELD
+RefactoringAction 1474460693365 BowlingGame.java RENAME bonus/2=>int bonusFor FIELD
+RefactoringAction 1474460695381 BowlingGame.java RENAME bonusFor=>int bonusForGame FIELD
+RefactoringAction 1474460744545 BowlingGame.java REMOVE bonusForGame FIELD
+RefactoringAction 1474460759920 Frame.java ADD int bonus FIELD
+RefactoringAction 1474460807999 Frame.java ADD int score FIELD
+RefactoringAction 1474460811012 Frame.java RENAME score=>int scoreWithBonus FIELD
+RefactoringAction 1474460813523 Frame.java RENAME scoreWithBonus=>int scoreWithBonus() METHOD
+RefactoringAction 1474460880149 Frame.java ADD boolean set FIELD
+RefactoringAction 1474460881162 Frame.java RENAME set=>boolean setBo FIELD
+RefactoringAction 1474460884677 Frame.java RENAME setBo=>boolean setBonus FIELD
+RefactoringAction 1474460885690 Frame.java RENAME setBonus=>boolean setBonus() METHOD
+RefactoringAction 1474460888203 Frame.java RENAME setBonus()=>boolean setBonus(int) METHOD
+EditAction 1474460916767 Frame.java 1085 8 14 0

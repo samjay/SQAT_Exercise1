@@ -1,10 +1,12 @@
 public class Frame {
 	private int firstThrow;
 	private int secondThrow;
+	private int bonus;
 	
 	public Frame(int firstThrow, int secondThrow){
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
+		this.bonus= 0;
 	}
 	
 	public int getFirstThrow() {
@@ -23,6 +25,10 @@ public class Frame {
 		}
 		return firstThrow + secondThrow;
 	}
+	
+	public int scoreWithBonus() throws BowlingException{
+		return score()+bonus;
+	}
 
 	//returns whether the frame is a strike or not
 	public boolean isStrike() throws BowlingException{
@@ -38,5 +44,9 @@ public class Frame {
 			return true;
 		}
 		return false;
+	}
+	
+	public void setBonus(int bonus){
+		this.bonus = bonus;
 	}
 }
