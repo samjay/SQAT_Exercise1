@@ -11,3 +11,25 @@ EditAction 1474458338061 Frame.java 671 6 7 0
 UnitTestCaseAction 1474458346539 TestBowling.java OK
 UnitTestSessionAction 1474458346541 TestBowling.java OK
 EditAction 1474458511733 Frame.java 805 6 9 0
+CompilationAction 1474458513792 TestBowling.java
+RefactoringAction 1474458553469 TestBowling.java ADD void testFrameScore_afterBothThrows_2_4()/2 METHOD
+RefactoringAction 1474458562989 TestBowling.java RENAME testFrameScore_afterBothThrows_2_4()/2=>void testFrameScore_score_2_4() METHOD
+RefactoringAction 1474458566509 TestBowling.java RENAME testFrameScore_score_2_4()=>void testFrameScore_score__2_4() METHOD
+RefactoringAction 1474458569528 TestBowling.java RENAME testFrameScore_score__2_4()=>void testFrameScore_score_more_than_2_4() METHOD
+RefactoringAction 1474458574550 TestBowling.java RENAME testFrameScore_score_more_than_2_4()=>void testFrameScore_score_more_than_10 FIELD
+RefactoringAction 1474458575572 TestBowling.java RENAME with_2_4()=>void with__4() METHOD
+RefactoringAction 1474458577092 TestBowling.java RENAME with__4()=>void with_8_4() METHOD
+RefactoringAction 1474458578111 TestBowling.java RENAME with_8_4()=>void with_8_() METHOD
+RefactoringAction 1474458579170 TestBowling.java RENAME with_8_()=>void with_8_5() METHOD
+RefactoringAction 1474458620375 TestBowling.java ADD BowlingException e FIELD
+RefactoringAction 1474458627432 TestBowling.java REMOVE e FIELD
+UnitTestCaseAction 1474458689894 TestBowling.java OK
+UnitTestSessionAction 1474458689895 TestBowling.java OK
+RefactoringAction 1474458718537 TestBowling.java ADD void testFrameScore_score_more_than_10_with_8_5()/2 METHOD
+RefactoringAction 1474458725054 TestBowling.java RENAME testFrameScore_score_more_than_10_with_8_5()/2=>void testFrameScore_score_le_than_10_with_8_5() METHOD
+RefactoringAction 1474458726576 TestBowling.java RENAME testFrameScore_score_le_than_10_with_8_5()=>void testFrameScore_score_less_than_10_with_8_5() METHOD
+RefactoringAction 1474458730594 TestBowling.java RENAME testFrameScore_score_less_than_10_with_8_5()=>void testFrameScore_score_less_than_0_with_8_5() METHOD
+RefactoringAction 1474458734614 TestBowling.java RENAME testFrameScore_score_less_than_0_with_8_5()=>void testFrameScore_score_less_than_0_with_8_ FIELD
+RefactoringAction 1474458739646 TestBowling.java RENAME testFrameScore_score_less_than_0_with_8_5()=>void testFrameScore_score_less_than_0_with_8_neg5() METHOD
+RefactoringAction 1474458746665 TestBowling.java RENAME testFrameScore_score_less_than_0_with_8_neg5()=>void testFrameScore_score_less_than_0_with_4_neg5() METHOD
+EditAction 1474458754814 TestBowling.java 779 3 6 0
