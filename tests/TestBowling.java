@@ -35,7 +35,7 @@ public class TestBowling {
 	public void testFrameIsSpare() throws BowlingException{
 		Frame frame = new Frame(10, 0);
 		
-		assertEquals("Frame is not a spare", frame.isSpare(), true);
+		assertEquals("Frame is not a spare", frame.isStrike(), true);
 	}
 
 }

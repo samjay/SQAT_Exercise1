@@ -45,3 +45,6 @@ RefactoringAction 1474459127487 TestBowling.java ADD BowlingException e FIELD
 RefactoringAction 1474459131505 TestBowling.java REMOVE e FIELD
 CompilationAction 1474459141739 TestBowling.java
 EditAction 1474459147507 Frame.java 851 6 10 0
+UnitTestCaseAction 1474459149456 TestBowling.java FAIL
+UnitTestSessionAction 1474459149458 TestBowling.java FAIL
+EditAction 1474459196459 TestBowling.java 902 4 9 2
