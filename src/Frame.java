@@ -33,8 +33,10 @@ public class Frame {
 	}
 	
 	//return whether a frame is a spare or not
-	public boolean isSpare(){
-		//to be implemented
+	public boolean isSpare() throws BowlingException{
+		if(score()==10){
+			return true;
+		}
 		return false;
 	}
 }

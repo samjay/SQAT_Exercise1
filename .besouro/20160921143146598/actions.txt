@@ -53,3 +53,4 @@ UnitTestSessionAction 1474459205534 TestBowling.java OK
 RefactoringAction 1474459281622 TestBowling.java RENAME testFrameIsSpare()=>void testFrameIsStrike() METHOD
 RefactoringAction 1474459286649 TestBowling.java ADD void testFrameIsSpare() METHOD
 EditAction 1474459307073 TestBowling.java 1079 5 11 3
+EditAction 1474459320435 Frame.java 894 6 11 0
