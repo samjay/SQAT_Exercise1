@@ -194,7 +194,35 @@ public class TestBowling {
 		game.addFrame(frame);
 		game.setBonus(6, 0);
 		
-		assertEquals("Strike is not calculated", game.score(), 133);
+		assertEquals("Final frame with spare is not calcualted", game.score(), 133);
+	}
+	
+	@Test
+	public void testBowling_score_with_last_round_spare_and_bonus_6_3() throws BowlingException{
+		BowlingGame game = new BowlingGame();
+		Frame frame = new Frame(1, 4);
+		game.addFrame(frame);
+		frame= new Frame(4, 5); 
+		game.addFrame(frame);
+		frame= new Frame(6, 4); 
+		game.addFrame(frame);
+		frame= new Frame(5, 5); 
+		game.addFrame(frame);
+		frame= new Frame(10, 0); 
+		game.addFrame(frame);
+		frame= new Frame(0, 1); 
+		game.addFrame(frame);
+		frame= new Frame(7, 3); 
+		game.addFrame(frame);
+		frame= new Frame(6, 4); 
+		game.addFrame(frame);
+		frame= new Frame(10, 0); 
+		game.addFrame(frame);
+		frame= new Frame(10, 0); 
+		game.addFrame(frame);
+		game.setBonus(6, 3);
+		
+		assertEquals("Final frame with strike is not calcualted", game.score(), 133);
 	}
 
 }

@@ -43,7 +43,7 @@ public class BowlingGame {
 				} else {
 					totalScore = totalScore + frame.score();
 				}
-			} else {
+			} else if(frames.size()==10){
 				if (frame.isSpare()) {
 					totalScore = totalScore + frame.score() + bonus.getFirstThrow();
 				} else if (frame.isStrike()) {
@@ -51,6 +51,8 @@ public class BowlingGame {
 				} else {
 					totalScore = totalScore + frame.score();
 				}
+			}else {
+				totalScore = totalScore + frame.score();
 			}
 
 		}

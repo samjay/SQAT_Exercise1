@@ -210,3 +210,11 @@ RefactoringAction 1474463617317 TestBowling.java RENAME testBowling_score_with_l
 RefactoringAction 1474463714755 TestBowling.java RENAME testBowling_score_with_last_round_spare_and_bonus_3()=>void testBowling_score_with_last_round_spare_and_bonus_() METHOD
 RefactoringAction 1474463715771 TestBowling.java RENAME testBowling_score_with_last_round_spare_and_bonus_()=>void testBowling_score_with_last_round_spare_and_bonus_6() METHOD
 EditAction 1474463739726 TestBowling.java 5338 15 105 11
+UnitTestCaseAction 1474463746478 TestBowling.java FAIL
+UnitTestSessionAction 1474463746479 TestBowling.java FAIL
+UnitTestCaseAction 1474463908861 TestBowling.java OK
+UnitTestSessionAction 1474463908862 TestBowling.java OK
+RefactoringAction 1474464029944 TestBowling.java ADD void testBowling_score_with_last_round_spare_and_bonus_6()/2 METHOD
+RefactoringAction 1474464042976 TestBowling.java RENAME testBowling_score_with_last_round_spare_and_bonus_6()/2=>void testBowling_score_with_last_round_spare_and_bonus_6_() METHOD
+RefactoringAction 1474464044491 TestBowling.java RENAME testBowling_score_with_last_round_spare_and_bonus_6_()=>void testBowling_score_with_last_round_spare_and_bonus_6_3() METHOD
+EditAction 1474464064620 TestBowling.java 6153 16 128 12
