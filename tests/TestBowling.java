@@ -102,7 +102,9 @@ public class TestBowling {
 		Frame frame9 = new Frame(6, 4);		
 		game.addFrame(frame3);	
 		Frame frame10 = new Frame(1, 4);		
-		game.addFrame(frame1);				
+		game.addFrame(frame1);	
+		Frame frame11 = new Frame(1, 4);		
+		game.addFrame(frame11);	
 		
 	}
 	
