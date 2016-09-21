@@ -75,7 +75,7 @@ public class TestBowling {
 		
 		game.addFrame(frame3);
 		
-		assertEquals("Frames are not added in game", game., false);
+		assertEquals("Frames are not added in game", game.numberOfFrames(), 3);
 		
 		
 	}
