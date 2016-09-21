@@ -171,3 +171,11 @@ RefactoringAction 1474461968767 TestBowling.java RENAME testBowling_score_with_1
 RefactoringAction 1474461970283 TestBowling.java RENAME testBowling_score_with_1_4_=>void testBowling_score_with_1_4_frame FIELD
 RefactoringAction 1474461971798 TestBowling.java RENAME testBowling_score_with_1_4_frame=>void testBowling_score_with_1_4_frame() METHOD
 EditAction 1474462027557 TestBowling.java 3356 11 56 7
+UnitTestCaseAction 1474462033404 TestBowling.java OK
+UnitTestSessionAction 1474462033405 TestBowling.java OK
+RefactoringAction 1474462085576 TestBowling.java ADD void testBowling_score_with_1_4_frame()/2 METHOD
+RefactoringAction 1474462091090 TestBowling.java RENAME testBowling_score_with_1_4_frame()/2=>void testBowling_score_with_1_4_frame_() METHOD
+RefactoringAction 1474462094103 TestBowling.java RENAME testBowling_score_with_1_4_frame_()=>void testBowling_score_with_1_4_frame_4_() METHOD
+RefactoringAction 1474462095120 TestBowling.java RENAME testBowling_score_with_1_4_frame_4_()=>void testBowling_score_with_1_4_frame_4_5() METHOD
+RefactoringAction 1474462097636 TestBowling.java RENAME testBowling_score_with_1_4_frame_4_5()=>void testBowling_score_with_1_4_frame_4_5_frame() METHOD
+EditAction 1474462128849 TestBowling.java 3691 12 62 8
