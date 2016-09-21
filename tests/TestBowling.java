@@ -108,6 +108,17 @@ public class TestBowling {
 		
 	}
 	
+	@Test(expected= BowlingException.class)
+	public void testBowling_setBonusFrameWithoutEndingSHouldFail() throws BowlingException{
+		BowlingGame game = new BowlingGame();
+		Frame frame = new Frame(6, 4);	
+		game.addFrame(frame);
+		frame= new Frame(4,  2);
+		game.addFrame(frame);
+		game.setBonus(2, 3);	
+		
+	}
+	
 	
 
 }
