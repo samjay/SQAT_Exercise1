@@ -54,3 +54,11 @@ RefactoringAction 1474459281622 TestBowling.java RENAME testFrameIsSpare()=>void
 RefactoringAction 1474459286649 TestBowling.java ADD void testFrameIsSpare() METHOD
 EditAction 1474459307073 TestBowling.java 1079 5 11 3
 EditAction 1474459320435 Frame.java 894 6 11 0
+UnitTestCaseAction 1474459322382 TestBowling.java OK
+UnitTestSessionAction 1474459322383 TestBowling.java OK
+RefactoringAction 1474459331286 TestBowling.java ADD void testFrameIsStrike()/2 METHOD
+RefactoringAction 1474459336804 TestBowling.java RENAME testFrameIsStrike()/2=>void testFrameIsNot FIELD
+RefactoringAction 1474459357400 TestBowling.java ADD void testFrameIsSpare()/2 METHOD
+RefactoringAction 1474459361414 TestBowling.java RENAME testFrameIsSpare()/2=>void testFrameIsNotSpare() METHOD
+RefactoringAction 1474459362430 TestBowling.java RENAME testFrameIsNotSpare()=>void testFrameIsNotASpare() METHOD
+EditAction 1474459373309 TestBowling.java 1434 7 15 5

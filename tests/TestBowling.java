@@ -39,10 +39,24 @@ public class TestBowling {
 	}
 	
 	@Test
+	public void testFrameIsNotAStrike() throws BowlingException{
+		Frame frame = new Frame(3, 0);
+		
+		assertEquals("Frame is a strike", frame.isStrike(), false);
+	}
+	
+	@Test
 	public void testFrameIsSpare() throws BowlingException{
 		Frame frame = new Frame(3, 7);
 		
 		assertEquals("Frame is not a spare", frame.isSpare(), true);
+	}
+	
+	@Test
+	public void testFrameIsNotASpare() throws BowlingException{
+		Frame frame = new Frame(3, 6);
+		
+		assertEquals("Frame is a spare", frame.isSpare(), false);
 	}
 
 }
