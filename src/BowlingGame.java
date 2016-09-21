@@ -38,6 +38,8 @@ public class BowlingGame {
 				Frame frameAfter = frames.get(i+1);
 				if(frame.isSpare()){
 					totalScore = totalScore + frame.score() + frameAfter.getFirstThrow();
+				}else if(frame.isStrike()){
+					totalScore = totalScore + frame.score() + frameAfter.getFirstThrow() + frameAfter.getSecondThrow();
 				}else{
 					totalScore = totalScore + frame.score();
 				}
