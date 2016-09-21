@@ -186,3 +186,6 @@ EditAction 1474462261260 BowlingGame.java 1124 5 7 0
 UnitTestCaseAction 1474462267839 TestBowling.java OK
 UnitTestSessionAction 1474462267840 TestBowling.java OK
 EditAction 1474462493301 BowlingGame.java 1303 5 7 0
+RefactoringAction 1474462506799 TestBowling.java ADD void testBowling_score_with_1_4_frame_4_5_frame()/2 METHOD
+RefactoringAction 1474462521815 TestBowling.java RENAME testBowling_score_with_1_4_frame_4_5_frame()/2=>void testBowling_score_with_spare_frame() METHOD
+EditAction 1474462589862 TestBowling.java 4105 13 72 9

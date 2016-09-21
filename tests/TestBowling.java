@@ -139,6 +139,21 @@ public class TestBowling {
 		assertEquals("Score is not calculated for single frame", game.score(), 14);
 	}
 	
+	@Test
+	public void testBowling_score_with_spare_frame() throws BowlingException{
+		BowlingGame game = new BowlingGame();
+		Frame frame = new Frame(1, 4);	
+		game.addFrame(frame);
+		frame= new Frame(4, 5);
+		game.addFrame(frame);
+		frame= new Frame(6, 4);
+		game.addFrame(frame);
+		frame= new Frame(5, 5);
+		game.addFrame(frame);
+		
+		assertEquals("Spare is not calculated", game.score(), 29);
+	}
+	
 	
 
 }
