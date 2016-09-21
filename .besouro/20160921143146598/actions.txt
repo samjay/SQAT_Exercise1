@@ -75,3 +75,6 @@ RefactoringAction 1474459653708 BowlingGame.java REMOVE getNumberOfFrames() METH
 RefactoringAction 1474459670759 BowlingGame.java ADD int numberOf FIELD
 RefactoringAction 1474459673274 BowlingGame.java RENAME numberOf=>int numberOfFrames() METHOD
 EditAction 1474459708172 TestBowling.java 1810 8 15 5
+CompilationAction 1474459709815 TestBowling.java
+CompilationAction 1474459709816 TestBowling.java
+EditAction 1474459710923 BowlingGame.java 685 5 3 0
