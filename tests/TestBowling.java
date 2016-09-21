@@ -157,16 +157,16 @@ public class TestBowling {
 	@Test
 	public void testBowling_score_with_strike_frame() throws BowlingException{
 		BowlingGame game = new BowlingGame();
-		Frame frame = new Frame(1, 4);	
+		Frame frame = new Frame(1, 4);	//5
 		game.addFrame(frame);
-		frame= new Frame(4, 5);
+		frame= new Frame(4, 5);  //14
 		game.addFrame(frame);
-		frame= new Frame(10, 0);
+		frame= new Frame(10, 0); //24 + 5 +3 =32
 		game.addFrame(frame);
-		frame= new Frame(5, 3);
+		frame= new Frame(5, 3); //32 + 5 + 3 = 40
 		game.addFrame(frame);
 		
-		assertEquals("Strike is not calculated", game.score(), 37);
+		assertEquals("Strike is not calculated", game.score(), 40);
 	}
 	
 	

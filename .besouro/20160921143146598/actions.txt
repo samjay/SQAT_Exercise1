@@ -194,3 +194,4 @@ UnitTestSessionAction 1474462595205 TestBowling.java FAIL
 RefactoringAction 1474462941530 TestBowling.java ADD void testBowling_score_with_spare_frame()/2 METHOD
 RefactoringAction 1474462948039 TestBowling.java RENAME testBowling_score_with_spare_frame()/2=>void testBowling_score_with_strike_frame() METHOD
 EditAction 1474463100023 TestBowling.java 4522 14 82 10
+EditAction 1474463160418 TestBowling.java 4565 14 82 10
