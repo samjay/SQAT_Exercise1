@@ -149,3 +149,6 @@ RefactoringAction 1474461789358 TestBowling.java RENAME testBowling_setBonusFram
 RefactoringAction 1474461790873 TestBowling.java RENAME testBowling_setBonusFrameWithoutEnding()=>void testBowling_setBonusFrameWithoutEndingSHould() METHOD
 RefactoringAction 1474461792389 TestBowling.java RENAME testBowling_setBonusFrameWithoutEndingSHould()=>void testBowling_setBonusFrameWithoutEndingSHouldFail() METHOD
 EditAction 1474461817943 TestBowling.java 3084 10 52 6
+UnitTestCaseAction 1474461826647 TestBowling.java FAIL
+UnitTestSessionAction 1474461826647 TestBowling.java FAIL
+EditAction 1474461854201 BowlingGame.java 1005 5 7 0
