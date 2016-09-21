@@ -33,3 +33,10 @@ RefactoringAction 1474458734614 TestBowling.java RENAME testFrameScore_score_les
 RefactoringAction 1474458739646 TestBowling.java RENAME testFrameScore_score_less_than_0_with_8_5()=>void testFrameScore_score_less_than_0_with_8_neg5() METHOD
 RefactoringAction 1474458746665 TestBowling.java RENAME testFrameScore_score_less_than_0_with_8_neg5()=>void testFrameScore_score_less_than_0_with_4_neg5() METHOD
 EditAction 1474458754814 TestBowling.java 779 3 6 0
+UnitTestCaseAction 1474458762235 TestBowling.java OK
+UnitTestSessionAction 1474458762236 TestBowling.java OK
+RefactoringAction 1474458872869 TestBowling.java ADD void testFrameScore_afterBothThrows_2_4()/2 METHOD
+RefactoringAction 1474458879390 TestBowling.java RENAME testFrameScore_afterBothThrows_2_4()/2=>void testFrame_afterBothThrows_2_4() METHOD
+RefactoringAction 1474458883411 TestBowling.java RENAME testFrame_afterBothThrows_2_4()=>void testFrameIsSpare_afterBothThrows_2_4() METHOD
+RefactoringAction 1474458963447 TestBowling.java RENAME testFrameIsSpare_afterBothThrows_2_4()=>void testFrameIsSpare() METHOD
+EditAction 1474459109989 TestBowling.java 976 4 6 1

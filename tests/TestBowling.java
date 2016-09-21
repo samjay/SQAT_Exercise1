@@ -9,8 +9,10 @@ public class TestBowling {
 		
 		Frame frame = new Frame(2, 4);
 		
+		int score = frame.score();
+		
 		try {
-			assertEquals("Scores are not added for the frame", frame.score(), 6);
+			assertEquals("Scores are not added for the frame", , 6);
 		} catch (BowlingException e) {
 			fail("Unexpected exception");
 			e.printStackTrace();
@@ -31,6 +33,13 @@ public class TestBowling {
 		Frame frame = new Frame(4, -5);		
 		frame.score();
 	
+	}
+	
+	@Test
+	public void testFrameIsSpare() throws BowlingException{
+		Frame frame = new Frame(10, 0);
+		
+		assertEquals("Frame is not a spare", frame.isSpare(), true);
 	}
 
 }
