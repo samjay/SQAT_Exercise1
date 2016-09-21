@@ -198,3 +198,15 @@ EditAction 1474463160418 TestBowling.java 4565 14 82 10
 UnitTestCaseAction 1474463166927 TestBowling.java FAIL
 UnitTestSessionAction 1474463166928 TestBowling.java FAIL
 EditAction 1474463420623 Frame.java 917 6 11 0
+UnitTestCaseAction 1474463426498 TestBowling.java OK
+UnitTestSessionAction 1474463426498 TestBowling.java OK
+RefactoringAction 1474463583178 TestBowling.java ADD void testBowling_score_with_strike_frame()/2 METHOD
+RefactoringAction 1474463604234 TestBowling.java RENAME testBowling_score_with_strike_frame()/2=>void testBowling_score_with_last() METHOD
+RefactoringAction 1474463609251 TestBowling.java RENAME testBowling_score_with_last()=>void testBowling_score_with_last_round_spare() METHOD
+RefactoringAction 1474463611269 TestBowling.java RENAME testBowling_score_with_last_round_spare()=>void testBowling_score_with_last_round_spare_and() METHOD
+RefactoringAction 1474463614284 TestBowling.java RENAME testBowling_score_with_last_round_spare_and()=>void testBowling_score_with_last_round_spare_and_bonus() METHOD
+RefactoringAction 1474463616300 TestBowling.java RENAME testBowling_score_with_last_round_spare_and_bonus()=>void testBowling_score_with_last_round_spare_and_bonus_() METHOD
+RefactoringAction 1474463617317 TestBowling.java RENAME testBowling_score_with_last_round_spare_and_bonus_()=>void testBowling_score_with_last_round_spare_and_bonus_3() METHOD
+RefactoringAction 1474463714755 TestBowling.java RENAME testBowling_score_with_last_round_spare_and_bonus_3()=>void testBowling_score_with_last_round_spare_and_bonus_() METHOD
+RefactoringAction 1474463715771 TestBowling.java RENAME testBowling_score_with_last_round_spare_and_bonus_()=>void testBowling_score_with_last_round_spare_and_bonus_6() METHOD
+EditAction 1474463739726 TestBowling.java 5338 15 105 11
