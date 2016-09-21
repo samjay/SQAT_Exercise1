@@ -40,3 +40,8 @@ RefactoringAction 1474458879390 TestBowling.java RENAME testFrameScore_afterBoth
 RefactoringAction 1474458883411 TestBowling.java RENAME testFrame_afterBothThrows_2_4()=>void testFrameIsSpare_afterBothThrows_2_4() METHOD
 RefactoringAction 1474458963447 TestBowling.java RENAME testFrameIsSpare_afterBothThrows_2_4()=>void testFrameIsSpare() METHOD
 EditAction 1474459109989 TestBowling.java 976 4 6 1
+CompilationAction 1474459111745 TestBowling.java
+RefactoringAction 1474459127487 TestBowling.java ADD BowlingException e FIELD
+RefactoringAction 1474459131505 TestBowling.java REMOVE e FIELD
+CompilationAction 1474459141739 TestBowling.java
+EditAction 1474459147507 Frame.java 851 6 10 0

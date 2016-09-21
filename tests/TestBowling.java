@@ -5,18 +5,14 @@ import org.junit.Test;
 public class TestBowling {
 
 	@Test
-	public void testFrameScore_afterBothThrows_2_4() {
+	public void testFrameScore_afterBothThrows_2_4() throws BowlingException {
 		
 		Frame frame = new Frame(2, 4);
 		
-		int score = frame.score();
+		int score = frame.score();		
 		
-		try {
-			assertEquals("Scores are not added for the frame", , 6);
-		} catch (BowlingException e) {
-			fail("Unexpected exception");
-			e.printStackTrace();
-		}
+		assertEquals("Scores are not added for the frame", score, 6);
+
 	}
 	
 	@Test(expected= BowlingException.class)
