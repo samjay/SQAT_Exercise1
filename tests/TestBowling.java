@@ -119,6 +119,15 @@ public class TestBowling {
 		
 	}
 	
+	@Test
+	public void testBowling_score_with_1_4_frame() throws BowlingException{
+		BowlingGame game = new BowlingGame();
+		Frame frame = new Frame(1, 4);	
+		game.addFrame(frame);
+		
+		assertEquals("Score is not calculated for single frame", game.score(), 5);
+	}
+	
 	
 
 }
