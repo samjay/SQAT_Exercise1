@@ -62,3 +62,16 @@ RefactoringAction 1474459357400 TestBowling.java ADD void testFrameIsSpare()/2 M
 RefactoringAction 1474459361414 TestBowling.java RENAME testFrameIsSpare()/2=>void testFrameIsNotSpare() METHOD
 RefactoringAction 1474459362430 TestBowling.java RENAME testFrameIsNotSpare()=>void testFrameIsNotASpare() METHOD
 EditAction 1474459373309 TestBowling.java 1434 7 15 5
+UnitTestCaseAction 1474459378962 TestBowling.java OK
+UnitTestSessionAction 1474459378963 TestBowling.java OK
+RefactoringAction 1474459463021 TestBowling.java ADD void testBowling FIELD
+RefactoringAction 1474459473537 TestBowling.java RENAME testBowling=>void testBowling_addFrame FIELD
+RefactoringAction 1474459475064 TestBowling.java RENAME testBowling_addFrame=>void testBowling_addFrame() METHOD
+RefactoringAction 1474459638649 BowlingGame.java ADD int get FIELD
+RefactoringAction 1474459642163 BowlingGame.java RENAME get=>int getNumber FIELD
+RefactoringAction 1474459643179 BowlingGame.java RENAME getNumber=>int getNumberOf FIELD
+RefactoringAction 1474459646194 BowlingGame.java RENAME getNumberOf=>int getNumberOfFrames() METHOD
+RefactoringAction 1474459653708 BowlingGame.java REMOVE getNumberOfFrames() METHOD
+RefactoringAction 1474459670759 BowlingGame.java ADD int numberOf FIELD
+RefactoringAction 1474459673274 BowlingGame.java RENAME numberOf=>int numberOfFrames() METHOD
+EditAction 1474459708172 TestBowling.java 1810 8 15 5

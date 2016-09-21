@@ -58,5 +58,26 @@ public class TestBowling {
 		
 		assertEquals("Frame is a spare", frame.isSpare(), false);
 	}
+	
+	@Test
+	public void testBowling_addFrame(){
+		BowlingGame game = new BowlingGame();
+		
+		Frame frame1 = new Frame(1, 4);
+		
+		game.addFrame(frame1);
+		
+		Frame frame2 = new Frame(4, 5);
+		
+		game.addFrame(frame2);
+		
+		Frame frame3 = new Frame(6, 4);
+		
+		game.addFrame(frame3);
+		
+		assertEquals("Frames are not added in game", game., false);
+		
+		
+	}
 
 }
