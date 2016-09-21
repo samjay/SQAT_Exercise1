@@ -32,35 +32,35 @@ public class TestBowling {
 	}
 	
 	@Test
-	public void testFrameIsStrike() throws BowlingException{
+	public void testFrame_10_0_IsStrike() throws BowlingException{
 		Frame frame = new Frame(10, 0);
 		
 		assertEquals("Frame is not a strike", frame.isStrike(), true);
 	}
 	
 	@Test
-	public void testFrameIsNotAStrike() throws BowlingException{
+	public void testFrame_3_0_IsNotAStrike() throws BowlingException{
 		Frame frame = new Frame(3, 0);
 		
 		assertEquals("Frame is a strike", frame.isStrike(), false);
 	}
 	
 	@Test
-	public void testFrameIsSpare() throws BowlingException{
+	public void testFrame_3_7_IsSpare() throws BowlingException{
 		Frame frame = new Frame(3, 7);
 		
 		assertEquals("Frame is not a spare", frame.isSpare(), true);
 	}
 	
 	@Test
-	public void testFrameIsNotASpare() throws BowlingException{
+	public void testFrame_3_6_IsNotASpare() throws BowlingException{
 		Frame frame = new Frame(3, 6);
 		
 		assertEquals("Frame is a spare", frame.isSpare(), false);
 	}
 	
 	@Test
-	public void testBowling_addFrame(){
+	public void testBowling_add3Frames() throws BowlingException{
 		BowlingGame game = new BowlingGame();
 		
 		Frame frame1 = new Frame(1, 4);
@@ -79,5 +79,33 @@ public class TestBowling {
 		
 		
 	}
+	
+	@Test(expected= BowlingException.class)
+	public void testBowling_add11Frames_should_fail() throws BowlingException{
+		BowlingGame game = new BowlingGame();		
+		Frame frame1 = new Frame(1, 4);		
+		game.addFrame(frame1);		
+		Frame frame2 = new Frame(4, 5);		
+		game.addFrame(frame2);		
+		Frame frame3 = new Frame(6, 4);		
+		game.addFrame(frame3);	
+		Frame frame4 = new Frame(1, 4);		
+		game.addFrame(frame1);		
+		Frame frame5 = new Frame(4, 5);		
+		game.addFrame(frame2);		
+		Frame frame6 = new Frame(6, 4);		
+		game.addFrame(frame3);		
+		Frame frame7 = new Frame(1, 4);		
+		game.addFrame(frame1);		
+		Frame frame8 = new Frame(4, 5);		
+		game.addFrame(frame2);		
+		Frame frame9 = new Frame(6, 4);		
+		game.addFrame(frame3);	
+		Frame frame10 = new Frame(1, 4);		
+		game.addFrame(frame1);				
+		
+	}
+	
+	
 
 }

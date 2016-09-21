@@ -84,3 +84,27 @@ CompilationAction 1474459725504 TestBowling.java
 UnitTestCaseAction 1474459731168 TestBowling.java OK
 UnitTestSessionAction 1474459731169 TestBowling.java OK
 EditAction 1474459785032 BowlingGame.java 773 5 4 0
+CompilationAction 1474459786634 TestBowling.java
+RefactoringAction 1474459800986 TestBowling.java ADD void testBowling_addFrame()/2 METHOD
+RefactoringAction 1474459820092 TestBowling.java RENAME testBowling_addFrame()/2=>void testBowling_addMoreThanFrame() METHOD
+RefactoringAction 1474459822106 TestBowling.java RENAME testBowling_addMoreThanFrame()=>void testBowling_addMoreThan10Frame() METHOD
+RefactoringAction 1474459824621 TestBowling.java RENAME testBowling_addMoreThan10Frame()=>void testBowling_addMoreThan10Frames() METHOD
+RefactoringAction 1474459827139 TestBowling.java RENAME testBowling_addMoreThan10Frames()=>void testBowling_addMoreThan10Frames_should() METHOD
+RefactoringAction 1474459829156 TestBowling.java RENAME testBowling_addMoreThan10Frames_should()=>void testBowling_addMoreThan10Frames_should_fail() METHOD
+RefactoringAction 1474459854680 TestBowling.java RENAME testFrameIsStrike()=>void testFrame_IsStrike() METHOD
+RefactoringAction 1474459856195 TestBowling.java RENAME testFrame_IsStrike()=>void testFrame_10_IsStrike() METHOD
+RefactoringAction 1474459857208 TestBowling.java RENAME testFrame_10_IsStrike()=>void testFrame_10_0IsStrike() METHOD
+RefactoringAction 1474459858722 TestBowling.java RENAME testFrame_10_0IsStrike()=>void testFrame_10_0_IsStrike() METHOD
+RefactoringAction 1474459865738 TestBowling.java RENAME testFrameIsNotAStrike()=>void testFrame_3_0IsNotAStrike() METHOD
+RefactoringAction 1474459866753 TestBowling.java RENAME testFrame_3_0IsNotAStrike()=>void testFrame_3_0_IsNotAStrike() METHOD
+RefactoringAction 1474459871767 TestBowling.java RENAME testFrameIsSpare()=>void testFrame_3_IsSpare() METHOD
+RefactoringAction 1474459873280 TestBowling.java RENAME testFrame_3_IsSpare()=>void testFrame_3_7_IsSpare() METHOD
+RefactoringAction 1474459877794 TestBowling.java RENAME testFrameIsNotASpare()=>void testFrame_IsNotASpare() METHOD
+RefactoringAction 1474459878813 TestBowling.java RENAME testFrame_IsNotASpare()=>void testFrame_3 FIELD
+RefactoringAction 1474459888340 TestBowling.java RENAME testBowling_addFrame()=>void testBowling_add3Frame() METHOD
+RefactoringAction 1474459892856 TestBowling.java RENAME testBowling_add3Frame()=>void testBowling_add3Frames() METHOD
+RefactoringAction 1474459931950 TestBowling.java RENAME testBowling_addMoreThan10Frames_should_fail()=>void testBowling_add11Frames_should_fail() METHOD
+CompilationAction 1474459986209 TestBowling.java
+UnitTestCaseAction 1474459990934 TestBowling.java FAIL
+UnitTestSessionAction 1474459990935 TestBowling.java FAIL
+EditAction 1474460024017 TestBowling.java 2699 9 44 6
