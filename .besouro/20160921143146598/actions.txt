@@ -180,3 +180,6 @@ RefactoringAction 1474462095120 TestBowling.java RENAME testBowling_score_with_1
 RefactoringAction 1474462097636 TestBowling.java RENAME testBowling_score_with_1_4_frame_4_5()=>void testBowling_score_with_1_4_frame_4_5_frame() METHOD
 EditAction 1474462128849 TestBowling.java 3691 12 62 8
 EditAction 1474462144041 BowlingGame.java 1049 5 7 0
+UnitTestCaseAction 1474462149228 TestBowling.java OK
+UnitTestSessionAction 1474462149229 TestBowling.java OK
+EditAction 1474462261260 BowlingGame.java 1124 5 7 0

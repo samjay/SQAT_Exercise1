@@ -32,9 +32,10 @@ public class BowlingGame {
 	// Returns the game score
 	public int score() throws BowlingException {
 		int totalScore = 0;
-		for (Frame frame : frames) {
+		for (int i = 0; i< frames.size();i++) {
+			Frame frame= frames.get(i);
 //			if(frame.isSpare()){
-//				totalScore
+//				totalScore = totalScore + frame.score() + 
 //			}
 			totalScore = totalScore + frame.score();
 		}
