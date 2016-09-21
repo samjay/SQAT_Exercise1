@@ -151,7 +151,22 @@ public class TestBowling {
 		frame= new Frame(5, 5);
 		game.addFrame(frame);
 		
-		assertEquals("Spare is not calculated", game.score(), 29);
+		assertEquals("Spare is not calculated", game.score(), 39);
+	}
+	
+	@Test
+	public void testBowling_score_with_strike_frame() throws BowlingException{
+		BowlingGame game = new BowlingGame();
+		Frame frame = new Frame(1, 4);	
+		game.addFrame(frame);
+		frame= new Frame(4, 5);
+		game.addFrame(frame);
+		frame= new Frame(10, 0);
+		game.addFrame(frame);
+		frame= new Frame(5, 3);
+		game.addFrame(frame);
+		
+		assertEquals("Strike is not calculated", game.score(), 37);
 	}
 	
 	

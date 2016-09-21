@@ -189,3 +189,8 @@ EditAction 1474462493301 BowlingGame.java 1303 5 7 0
 RefactoringAction 1474462506799 TestBowling.java ADD void testBowling_score_with_1_4_frame_4_5_frame()/2 METHOD
 RefactoringAction 1474462521815 TestBowling.java RENAME testBowling_score_with_1_4_frame_4_5_frame()/2=>void testBowling_score_with_spare_frame() METHOD
 EditAction 1474462589862 TestBowling.java 4105 13 72 9
+UnitTestCaseAction 1474462595204 TestBowling.java FAIL
+UnitTestSessionAction 1474462595205 TestBowling.java FAIL
+RefactoringAction 1474462941530 TestBowling.java ADD void testBowling_score_with_spare_frame()/2 METHOD
+RefactoringAction 1474462948039 TestBowling.java RENAME testBowling_score_with_spare_frame()/2=>void testBowling_score_with_strike_frame() METHOD
+EditAction 1474463100023 TestBowling.java 4522 14 82 10
