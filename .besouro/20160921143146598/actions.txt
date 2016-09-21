@@ -218,3 +218,4 @@ RefactoringAction 1474464029944 TestBowling.java ADD void testBowling_score_with
 RefactoringAction 1474464042976 TestBowling.java RENAME testBowling_score_with_last_round_spare_and_bonus_6()/2=>void testBowling_score_with_last_round_spare_and_bonus_6_() METHOD
 RefactoringAction 1474464044491 TestBowling.java RENAME testBowling_score_with_last_round_spare_and_bonus_6_()=>void testBowling_score_with_last_round_spare_and_bonus_6_3() METHOD
 EditAction 1474464064620 TestBowling.java 6153 16 128 12
+EditAction 1474464087641 TestBowling.java 6153 16 128 12

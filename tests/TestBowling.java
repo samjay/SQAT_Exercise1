@@ -222,7 +222,7 @@ public class TestBowling {
 		game.addFrame(frame);
 		game.setBonus(6, 3);
 		
-		assertEquals("Final frame with strike is not calcualted", game.score(), 133);
+		assertEquals("Final frame with strike is not calcualted", game.score(), 136);
 	}
 
 }
